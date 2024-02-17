@@ -1,0 +1,67 @@
+# <========================================>
+#             Plugin WorldsColor
+#              Version: 1.0.2
+#             Author: MrH1tech
+# <========================================>
+
+#Проверка на обновления
+#Checking for updates
+check-update: true
+
+#Названия ваших миров для которых используется плагин
+#The names of your names
+worlds:
+  #Обычный мир
+  #Normal world
+  overworld: 'world'
+  #Ад/незер
+  #Hell/nether
+  nether: 'world_nether'
+  #Эндер мир/Край
+  #The end
+  end: 'world_the_end'
+
+#Цвета ников в определённом мире.
+#The colors of nicknames in a certain world.
+#Цвета/Colors: RED DARK_RED GREEN DARK_GREEN BLUE DARK_BLUE WHITE GRAY DARK_GRAY
+#              AQUA DARK_AQUA YELLOW GOLD LIGHT_PURPLE DARK_PURPLE BLACK
+colors:
+  #Обычный мир
+  #Normal world
+  overworld: 'WHITE'
+  #Ад/незер
+  #Hell/nether
+  nether: 'RED'
+  #Эндер мир/Край
+  #The end
+  end: 'LIGHT_PURPLE'
+
+#Настройка плагина
+#Plugin settings
+settings:
+  #Цветной ник в чате
+  #Colered nickname in chat
+  colors-in-chat:
+    enable: true
+  #Цветной ник в сообщении при входе на сервер и выхода с него
+  #Colered nickname in join and quit message
+  colors-in-join-and-quit-message:
+    enable: true
+  #Цветной ник над головой игрока
+  #Colered nickname above the player head
+  colored-nickname-above-player:
+    enable: false
+
+#Сообщения плагина
+#The messages of plugin
+messages:
+  #Перезагрузка конфига
+  #Message about successfully reload configuration file
+  config-reload-successfully: '&aКонфиг успешно перезагружен!'
+
+  #Сообщения об ошибках
+  #The messages of errors
+  errors:
+    #Отсутствие аргументов в команде
+    #No arguments in the command
+    no-arguments: '&cУкажите больше аргументов для команды!'
